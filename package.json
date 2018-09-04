@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "yarn build && next export"
   },
   "dependencies": {
     "@moltin/sdk": "3.12.1",
